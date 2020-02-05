@@ -193,15 +193,15 @@ icons <- awesomeIcons(
 ``` r
 for (i in 1:length(zDATA$review_scores_rating)){
 	if(zDATA$review_scores_rating[i] >= 90){
-		zDATA$review_scores_rating[i] <-'\u2b50?\u2b50?\u2b50?\u2b50?\u2b50?'
+		zDATA$review_scores_rating[i] <-'\u2b50\u2b50\u2b50\u2b50\u2b50'
 	}else if(zDATA$review_scores_rating[i] >= 80){
-		zDATA$review_scores_rating[i] <-'\u2b50?\u2b50?\u2b50?\u2b50?'
+		zDATA$review_scores_rating[i] <-'\u2b50\u2b50\u2b50\u2b50'
 	}else if(zDATA$review_scores_rating[i] >= 70){
-		zDATA$review_scores_rating[i] <-'\u2b50?\u2b50?\u2b50?'
+		zDATA$review_scores_rating[i] <-'\u2b50\u2b50\u2b50'
 	}else if(zDATA$review_scores_rating[i] >= 60){
-		zDATA$review_scores_rating[i] <-'\u2b50?\u2b50?'
+		zDATA$review_scores_rating[i] <-'\u2b50\u2b50'
 	}else{
-		zDATA$review_scores_rating[i] <-'\u2b50?'
+		zDATA$review_scores_rating[i] <-'\u2b50'
 	}
 }
 ```
@@ -222,7 +222,11 @@ leaflet(zNIGHT) %>% addTiles() %>%
  
  ## Final Result
  
+ #### Image of the Map:
  ![Image of Map](https://user-images.githubusercontent.com/56977428/73803082-eca56300-477c-11ea-93e3-9a1e3a94901a.png)
+ 
+ #### Image of the Popup Box:
+ ![Image of Pop Up](https://user-images.githubusercontent.com/56977428/73804443-0f397b00-4781-11ea-9412-43bb139a9a9e.png)
  
 ## Basic Regression
 
