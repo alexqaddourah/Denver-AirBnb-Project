@@ -224,8 +224,21 @@ leaflet(zNIGHT) %>% addTiles() %>%
  
  ![Image of Map](https://user-images.githubusercontent.com/56977428/73803082-eca56300-477c-11ea-93e3-9a1e3a94901a.png)
  
+## Basic Regression
 
-                           
+#### The code below shows some basic exploratory Linear Regression used to predict the price of a home located in Sloane Lake.
+
+``` r
+lakeDATA <- subset(listings2, neighbourhood='Sloane Lake')
+summary(lm(price~bedrooms+bathrooms,data=lakeDATA))
+
+#Price Estimation off beds and baths:
+19.974 +  51.106*(beds) + 24.784*(baths)
+
+PRICE = 19.974 +  51.106*(4) + 24.784*(2)
+PRICE = #$273.97/night
+```
+
   
   
   
