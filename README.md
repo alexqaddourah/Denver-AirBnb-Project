@@ -222,6 +222,8 @@ leaflet(zNIGHT) %>% addTiles() %>%
  
  ## Final Result
  
+ ![Image of Map]("https://user-images.githubusercontent.com/56977428/73803082-eca56300-477c-11ea-93e3-9a1e3a94901a.png")
+ 
 
                            
   
