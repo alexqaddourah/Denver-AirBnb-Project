@@ -1,4 +1,12 @@
 # Denver-AirBnb-Project
+
+## Contributors:
+* Wenbin Yang GitHub: wenbin-yang
+* Alyson Chen GitHub: alysonchen
+* Junji Weiner GitHub: 8Jun
+* Aldo Peter GitHub: Aldospy
+
+## Objective:
 This project was started in the summer semester during my Masters in Business Analytics program at CU Boulder. It is intended to be an exploratory project into the basics of R.
 
 ## Data Cleaning
